@@ -36,7 +36,7 @@ class HappeningstoList:
         for _ in range(7):
             self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);") #scroll to the bottom of the page
 
-            self.driver.implicitly_wait(10) #wait
+            self.driver.implicitly_wait(10) #wait for element to appear
 
             try:
                 button = WebDriverWait(self.driver, 10).until(
