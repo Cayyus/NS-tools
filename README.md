@@ -1,2 +1,2 @@
 # happenings-to-list-tool
-A fully automated tool made with selenium and beautifulsoup which converts happenings from The North Pacific happenings page and converts them into a list of nations
+A fully automated tool made with Selenium and Beautifulsoup which gets happenings from The North Pacific Happenings page and converts them into a list of nations
