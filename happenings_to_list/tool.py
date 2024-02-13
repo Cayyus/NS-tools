@@ -99,7 +99,7 @@ class HappeningstoList:
             if relocated_matches:
                 relocated_names.append((relocated_matches.group('name')))
 
-        return founded_names, relocated_names
+        return list(set(founded_names)), list(set(relocated_names)) #turn into set to remove duplicates, convert back into list
 
     def execute(self):
         os.system('cls')
