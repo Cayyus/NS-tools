@@ -1,6 +1,6 @@
 templates = {
 
-'Forum': """"[code]Hello there, %nation%!
+'Forum': """"[code]Hello there, %NATION%!
 
 I hope you are enjoying NationStates and being in The North Pacific. You are fortunate to have been founded in a region that gives you so many opportunities, but there is more that you could have access to.
 
