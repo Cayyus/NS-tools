@@ -4,18 +4,15 @@ from lxml import etree
 from random import randint
 import time
 
-NATIONS = []
-PASSWORDS = []
+NATIONS = [] #PUT YOUR NATIONS HERE
+PASSWORDS = [] #PASSWORDS FOR YOUR NATIONS, MAKE SURE THEY ARE IN ORDER, THE FIRST PASSWORD SHOULD CORRELATE TO THE PASSWORD
+#OF THE FIRST NATION IN THE NATION LIST
 
 URL = 'https://www.nationstates.net/cgi-bin/api.cgi?'
 
 headers = {'User-Agent': 'united_states_of_dictators'}
 
 timeout = httpx.Timeout(90.0, read=None)
-
-for i in range(0, 15):
-    nation = f'polithon_{i+1}'
-    NATIONS.append(nation)
 
 def issue():
     for n, p in zip(NATIONS, PASSWORDS):
