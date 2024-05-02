@@ -48,13 +48,13 @@ class HappeningstoList:
 
             self.driver.implicitly_wait(5)
 
-        with open('nse.html', 'wb') as file:
+        with open('happenings.html', 'wb') as file:
             file.write(self.driver.page_source.encode('utf-8'))
             file.close()
 
     def extract_happenings(self) -> list:
         happenings_lst = []
-        with open('nse.html', 'rb') as file:
+        with open('happenings.html', 'rb') as file:
             f = file.read()
             soup = BeautifulSoup(f, features='lxml')
             reports_div = soup.find('div', id='reports')
