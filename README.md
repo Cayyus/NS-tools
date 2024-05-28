@@ -11,5 +11,5 @@ A script which automatically answers all issues for my polithon batch of nations
 ## [nationcheck](https://github.com/Cayyus/NS-tools/tree/main/nationcheck)
 Code for a Chrome extension I made to speed up Speaker checks, tells whether a nation is in The North Pacific and whether it is in the WA.
 
-## [spreadsheet-link-parser](https://github.com/Cayyus/NS-tools/tree/main/tnpspreadsheetlinkparser)
+## [spreadsheet-link-parser](https://github.com/Cayyus/NS-tools/tree/main/tnpspreadsheetlink)
 Code for a Chrome extension made for entering hyperlinks into the TNP Citizens/Residents spreadsheet quickly, just a link to the nation and the forum profile link and it will output the full hyperlink format.
