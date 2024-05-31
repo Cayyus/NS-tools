@@ -10,7 +10,7 @@ PASSWORDS = [] #PASSWORDS FOR YOUR NATIONS, MAKE SURE THEY ARE IN ORDER, THE FIR
 
 URL = 'https://www.nationstates.net/cgi-bin/api.cgi?'
 
-headers = {'User-Agent': 'your_user_agent'}
+headers = {'User-Agent': 'your_user_agent'} #change this to your user agent 
 
 timeout = httpx.Timeout(90.0, read=None)
 
