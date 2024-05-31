@@ -4,7 +4,7 @@ from lxml import etree
 from random import randint
 import time
 
-NATIONS = [] #PUT YOUR NATIONS HERE, separated by commas and placed in "" strings, such as "Testlandia"
+NATIONS = [] #PUT YOUR NATIONS HERE, separated by commas and placed in double quoted ("") strings, such as "Testlandia"
 PASSWORDS = [] #PASSWORDS FOR YOUR NATIONS, MAKE SURE THEY ARE IN ORDER, THE FIRST PASSWORD SHOULD CORRELATE TO THE PASSWORD
 #OF THE FIRST NATION IN THE NATIONS LIST
 
