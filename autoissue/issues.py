@@ -4,13 +4,13 @@ from lxml import etree
 from random import randint
 import time
 
-NATIONS = [] #PUT YOUR NATIONS HERE
+NATIONS = [] #PUT YOUR NATIONS HERE, separated by commas and placed in "" strings, such as "Testlandia"
 PASSWORDS = [] #PASSWORDS FOR YOUR NATIONS, MAKE SURE THEY ARE IN ORDER, THE FIRST PASSWORD SHOULD CORRELATE TO THE PASSWORD
-#OF THE FIRST NATION IN THE NATION LIST
+#OF THE FIRST NATION IN THE NATIONS LIST
 
 URL = 'https://www.nationstates.net/cgi-bin/api.cgi?'
 
-headers = {'User-Agent': 'united_states_of_dictators'}
+headers = {'User-Agent': 'your_user_agent'}
 
 timeout = httpx.Timeout(90.0, read=None)
 
